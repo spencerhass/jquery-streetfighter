@@ -10,5 +10,7 @@ $(document).ready(function() {
     $('.ryu-ready').show();
   })
   .mouseleave(function() {
-   $('.ryu-ready').hide();
-$('.ryu-still').show();}
+    $('.ryu-ready').hide();
+    $('.ryu-still').show();
+  });
+});

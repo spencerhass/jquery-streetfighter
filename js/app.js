@@ -1,8 +1,3 @@
-$(document).ready(function() {
-  $('.ryu').mouseenter(function() {
-    alert('mouse entered .ryu div');
-  });
-});
 
 $(document).ready(function() {
   $('.ryu').mouseenter(function() {
@@ -14,3 +9,13 @@ $(document).ready(function() {
     $('.ryu-still').show();
   });
 });
+
+.mousedown(function(){
+$('.ryu-ready').hide();
+$('.ryu-still').show();
+$('.hadouken').show();
+	})
+
+
+  	
+	

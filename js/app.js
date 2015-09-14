@@ -34,22 +34,24 @@ function playHadouken() {
         $('#hadouken-sound')[0].play();
     };
  
+ 
+ 
+ 
+ 
 $(document).keydown(function(e) {
 		if (e.keyCode == 88) {
-			$('.ryu-still').hide();
 			$('.ryu-ready').hide();
-            $('.ryu-throwing').hide();
 			$('.ryu-cool').show();
-			$('.hadouken').hide();
+			
 		}
 	})
 	$(document).keyup(function(e) {
 		if (e.keyCode == 88) {
-			$('.ryu-still').show();
 			$('.ryu-ready').show();
 			$('.ryu-cool').hide();
-            $('.ryu-throwing').show();
-			$('.hadouken').show();
+			
 
 		}
 		});
+		
+		
